@@ -41,7 +41,7 @@ void quick_sort(vector<int>&v,int lo,int hi){
     quick_sort(v,pivot+1,hi);
 }
 int main() {
-    vector<int>v = {1,5,4,2,9,-1,-1};
+    vector<int>v = {1,5,4};
     int n = v.size();
     quick_sort(v,0,n-1);
     for(int ele:v)cout<<ele<<" ";
