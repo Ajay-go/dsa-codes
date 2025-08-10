@@ -3,7 +3,7 @@
 #include <algorithm>
 
 using namespace std;
-
+// code is about disjoin set union which is helpful in finding same compoenent thing
 void adjacency_matrix(int n)
 {
     vector<vector<int>> graph(n, vector<int>(n, 0));
